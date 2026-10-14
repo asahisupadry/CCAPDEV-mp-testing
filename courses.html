@@ -12,28 +12,29 @@
 <div class="container">
   <h1>Course Offerings</h1>
   <div class="tabs" id="subtabs">
-    <a class="tab" href="enlistment.html">My Enlistment</a>
+   <a class="tab" href="enlistment.html">My Enlistment</a>
     <a class="tab active" href="courses.html">Course Offerings</a>
   </div>
 
+
   <div class="filters">
-    <input type="text" id="search" placeholder="Search course code, name or professor..." oninput="render()">
-    <select id="modeFilter" onchange="render()">
-      <option value="all">All modes</option>
+		<input type="text" id="search" placeholder="Search course code, name or professor..." oninput="render()">
+      <select id="modeFilter" onchange="render()">
+     <option value="all">All modes</option>
       <option value="Online">Online</option>
       <option value="Onsite">Onsite</option>
     </select>
-    <select id="availFilter" onchange="render()">
+		<select id="availFilter" onchange="render()">
       <option value="all">All sections</option>
       <option value="open">Has slots</option>
       <option value="full">Full</option>
     </select>
-  </div>
+	</div>
 
   <div class="row" style="border:none">
     <span class="muted" id="lastUpdate"></span>
     <button class="btn small outline" onclick="render()">Refresh</button>
-  </div>
+	</div>
 
   <div id="courseList"></div>
 </div>
@@ -44,3 +45,4 @@
 <script src="js/courses.js"></script>
 </body>
 </html>
+

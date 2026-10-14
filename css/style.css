@@ -1,13 +1,13 @@
 /* animohub styles */
 :root{
   --bg:#f3f6f4;
-  --card:#ffffff;
-  --text:#1d2b24;
+    --card:#ffffff;
+    --text:#1d2b24;
   --muted:#6c7b73;
   --green:#0b6b3a;
   --green2:#118a4c;
   --link:#0b6b3a;
-  --border:#d8e0db;
+    --border:#d8e0db;
   --red:#c0392b;
   --yellow:#d68910;
 }
@@ -59,7 +59,7 @@ h1,h2,h3{ margin-top:0; }
 
 .dropdown{ position:relative; }
 .dropcontent{
-  display:none; position:absolute; top:100%; left:0;
+    display:none; position:absolute; top:100%; left:0;
   min-width:180px; background:var(--card);
   border:1px solid var(--border); border-radius:8px;
   box-shadow:0 4px 12px rgba(0,0,0,.2); overflow:hidden;
