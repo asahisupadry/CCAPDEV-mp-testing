@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,17 +10,19 @@
 <div id="navbar"></div>
 
 
+
 <div class="container">
-  <h1>Organizations</h1>
+    <h1>Organizations</h1>
 
   <div class="carousel" id="carousel">
     <div id="slides"></div>
-    <button class="prev">&#10094;</button>
-    <button class="next">&#10095;</button>
-  </div>
+      <button class="prev">&#10094;</button>
+		<button class="next">&#10095;</button>
+    </div>
 
 
-  <div class="filters">
+
+  <div class='filters'>
     <input type="text" id="search" placeholder="Search organizations..." oninput="render()">
     <select id="recFilter" onchange="render()">
       <option value="all">All organizations</option>
@@ -29,14 +31,16 @@
     </select>
   </div>
 
-  <div class="grid" id="orgGrid"></div>
+ <div class="grid" id="orgGrid"></div>
 </div>
 
 
 <div id="toasts"></div>
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
-<script src="js/orgs.js"></script>
+<script src="js/orgs.js"></script> 
 </body>
 </html>
+
+
 
